@@ -1,0 +1,50 @@
+
+
+
+/**Inicio**/
+
+.principal_box {
+    background-image: url(../img/inicios.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h1_txt {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 10rem;
+    text-shadow: 0.1rem 0.1rem 0.3rem #64024C;
+}
+
+form {
+    background-color: #ffffffd2;
+    margin: 8rem 40rem 10rem 40rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    box-shadow: 0.2rem 0.2rem 1.5rem #64024C;
+}
+
+.btn-primary {
+    margin-left: 9rem;
+    margin-top: 1rem;
+    background-color: #64024C;
+    color: #ffffff;
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border: #ffffff;
+}
+
+a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+}
