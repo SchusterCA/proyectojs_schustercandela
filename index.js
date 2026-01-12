@@ -44,8 +44,7 @@ function iniciarTienda() {
 4. Salir`);
 
     if (opcion === "1") {
-        mostrarCartasEnAlert();
-        iniciarTienda(); 
+        window.location.href = "html/cartas.html";
         
     } else if (opcion === "2") {
         const nombreBuscado = prompt("Ingresa el nombre de la carta que buscas:");
@@ -74,19 +73,7 @@ function iniciarTienda() {
         iniciarTienda(); 
         
     } else if (opcion === "3") {
-        const nombreUsuario = prompt("Ingresa tu nombre:");
-        const emailUsuario = prompt("Ingresa tu email:");
-        
-        const nuevoUsuario = {
-            nombre: nombreUsuario,
-            email: emailUsuario,
-            fechaRegistro: new Date().toLocaleDateString()
-        };
-        
-        usuarios.push(nuevoUsuario);
-        alert(`¡Gracias por registrarte, ${nombreUsuario}!`);
-        mostrarUsuariosEnAlert();
-        iniciarTienda(); 
+        window.location.href = "html/login.html";
         
     } else if (opcion === "4") {
         alert("¡Gracias por visitar nuestra tienda!");

@@ -48,3 +48,31 @@ a {
     text-decoration: none;
     color: rgb(61, 61, 61);
 }
+
+
+.text-registro {
+    color: #ffffff;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 1rem;
+}
+
+.text-registro a {
+    color: #FFD700; /* Dorado */
+    font-weight: 600;
+    text-decoration: underline;
+    transition: all 0.3s ease;
+}
+
+.text-registro a:hover {
+    color: #FFA500; /* Naranja dorado */
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+
+.link-registro-container {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
